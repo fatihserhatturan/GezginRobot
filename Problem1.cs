@@ -128,57 +128,7 @@ namespace prolab4
 
             singleton.counterEn = singleton.counterEn+2;
             singleton.counterBoy = singleton.counterBoy+2;
-            /*
-            for (int i = 0; i < counterBoy * counterEn; i++)
-            {
-            Applier2:
-                int hareket = rnd.Next(0, 4);
-
-                if (hareket == 0) { if (robot.SagHareket(robot.RobotBul1(), robot.RobotBul2()) == 0) goto Applier2; }
-                if (hareket == 0)
-                {
-                    if (robot.SagHareket(robot.RobotBul1(), robot.RobotBul2()) == 1)
-                    {
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2()] = 7;
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2() + 1] = 8;
-                    }
-                }
-                if (hareket == 1) { if (robot.SolHareket(robot.RobotBul1(), robot.RobotBul2()) == 0) goto Applier2; }
-                if (hareket == 1)
-                    {
-                    if (robot.SolHareket(robot.RobotBul1(), robot.RobotBul2()) == 1)
-                        {
-                            robot.konum[robot.KonumVer1(), robot.KonumVer2()] = 7;
-                            robot.konum[robot.KonumVer1(), robot.KonumVer2() + 1] = 8;
-                        }
-
-                    }
-                if (hareket == 2) { if (robot.YukariHareket(robot.RobotBul1(), robot.RobotBul2()) == 0) goto Applier2; }
-                if (hareket == 2)
-                {
-                    if (robot.YukariHareket(robot.RobotBul1(), robot.RobotBul2()) == 1)
-                    {
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2()] = 7;
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2() + 1] = 8;
-                    }
-
-                }
-                if (hareket == 3) { if (robot.AsagiHareket(robot.RobotBul1(), robot.RobotBul2()) == 0) goto Applier2; }
-                if (hareket == 3)
-                {
-                    if (robot.AsagiHareket(robot.RobotBul1(), robot.RobotBul2()) == 1)
-                    {
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2()] = 7;
-                        robot.konum[robot.KonumVer1(), robot.KonumVer2() + 1] = 8;
-                    }
-
-                }
-
-
-
-            }
-            */
-
+     
         }
 
         private void button2_Click(object sender, EventArgs e)
